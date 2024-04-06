@@ -1,0 +1,49 @@
+cd server
+
+npm init -y
+
+create index.js
+
+npm i cookie-parser cors dotenv express express-async-handler express-oauth2-jwt-bearer nodemon prisma @prisma/client
+
+add { "type": "module" } in package.json
+add { "start": "nodemon" } in package.json
+
+npx prisma db push
+npx prisma generate
+
+mkdir config / prismaConfig.js and add two line in file
+
+mkdir routes and controllers
+
+
+
+
+cd ..
+
+npm create vite@latest
+
+npm i
+
+npm i framer-motion react-countup react-icons swiper react-outside-click-handler react-accessible-accordion
+
+npm run dev
+
+npm i react-router-dom@6.10.0
+
+npm i react-query
+
+npm i axios dayjs react-toastify
+
+npm i react-spinners
+
+npm i lodash
+
+npm i react-leaflet@4.2.1 leaflet
+
+npm i esri-leaflet-geocoder
+
+npm i @auth0/auth0-react
+
+npm i @mantine/core @mantine/dates @mantine/form @mantnie/hooks
+npm i @emotion/react
